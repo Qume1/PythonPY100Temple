@@ -1,0 +1,24 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 8
+    length: 12
+    placeholder_text: '...  # TODO запросить месяц у пользователя. Номер месяца -
+      целочисленное значение!'
+  - offset: 25
+    length: 39
+    placeholder_text: '...:  # TODO записать условие через операторы or'
+  - offset: 98
+    length: 10
+    placeholder_text: '...:  # TODO проверить вхождение месяца в список месяцев лета'
+  - offset: 141
+    length: 12
+    placeholder_text: '...:  # TODO проверить вхождение месяца в кортеж месяцев осени'
+  - offset: 187
+    length: 11
+    placeholder_text: '...:  # TODO проверить вхождение месяца в множество месяцев
+      лета'
+- name: __init__.py
+  visible: false
